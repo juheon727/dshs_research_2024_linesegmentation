@@ -1,0 +1,13 @@
+{
+    "epochs": 100,
+    "batch_size": 16,
+    "img_resolution": 448,
+    "learning_rate": 1e-4,
+    "num_workers": 32,
+    "data_dir": "/app/data",
+    "save_dir": "/app/unet/weights/",
+    "prediction_dir": "/app/unet/predictions/",
+    "log_dir": "/app/unet/log.txt",
+    "non_background_multiplier": 500.0,
+    "focal_gamma": 10.0
+}
