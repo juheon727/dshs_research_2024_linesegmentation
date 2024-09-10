@@ -1,0 +1,11 @@
+{
+    "unet_dir": "/app/unet/",
+    "segformer_dir": "/app/segformer",
+    "data_dir": "/app/data/",
+    "pred_dir": "/app/keypoint/opposite_predictions/",
+    "mask_dir": "/app/keypoint/masks/",
+    "save_masks": false,
+    "img_resolution": 896,
+    "keypoint_color": [255, 255, 0],
+    "task": "opposite_side"
+}
